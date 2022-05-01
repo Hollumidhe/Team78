@@ -1,0 +1,520 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: #1C2230;
+    background-image: url(image/images/bg-curvy-desktop.svg)
+    
+
+}
+.header{
+    background:#1C2230;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+
+.logo img{
+    width:150px;
+    margin-right:290px ;
+    
+    
+}
+.nav-bar{
+    list-style: none;
+    color: white;
+    
+    
+}
+.nav-bar li{
+    display:inline-block;
+    padding: 20px 10px;
+    text-decoration: none;
+    
+    
+
+}
+.nav-bar li a:hover{
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+}
+.menu{
+    display:none;
+}
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-top:4px;
+}
+
+.display{
+    background-color: #1C2230;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.const{
+    display: flex;
+    align-items: center;
+}
+.const img{
+    width: 500px;
+    max-width: 100%;
+    align-items: center;
+    
+}
+.rowl{
+    align-items: center;
+}
+.rowl h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+.rowl p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+}
+button{
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 15px;
+    border:5px solid hsl(198, 60%, 50%);
+    cursor: pointer;
+    width: 170px;
+    height:30px;
+
+}
+button a{
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+    text-decoration: none;
+    font-size: 12px;
+}
+button a:hover{
+    color: #8CDAE4;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.ment{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cont{
+     display: flex; 
+    padding-left: 50PX;
+    padding-right: 50PX;
+    padding-top:60px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    
+    
+}
+
+.immg img{
+    display: flex;
+    padding-left: 160px;
+    padding-right: 150px;
+    align-items: center;
+}
+
+
+.immg h1{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.immg p{
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    
+}
+.value img{
+    display: flex;
+}
+.files{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 50px;
+    justify-content: center;
+}
+.folders{
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.folders h1{
+    font-size: 30px;
+}
+.folders p{
+    font-size: 14px;
+    padding-top: 15px;
+}
+.next{
+    padding-top: 15px;
+}
+.next1{
+    padding-top: 15px;
+    
+}
+.next1 img{
+    width: 10px;  
+}
+.next1 a{
+    text-decoration: underline;
+    
+}
+.secure{
+    padding-right: 10px;
+}
+.secure img{
+    width: 28em;
+}
+.testi-mony{
+    display: flex;
+    padding-right: 22px;
+    
+
+}
+.testi{
+    display: flex;
+}
+.testimon112{
+    padding-left: 90px;
+}
+.testimon112 img{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.testimony{
+    
+    border: 2px solid #21293C;
+    background-color: #21293C;
+    border-radius: 5px;
+    padding: 26px;
+    margin: 6px 0;
+    margin-left: -30px;
+    
+    
+  
+}
+.testimony::after{
+    display: table;
+    clear:both;
+    content: "";
+    
+}
+.testimony img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+     
+}
+.testimony p{
+    background-color: #21293C;
+    font-size: 13px;
+}
+.testimony span{
+    font-weight: bold;
+    font-size: 15px;
+    background: #21293C;
+}
+
+.testy{
+    padding-right: 43px;
+    padding-left: 27px;
+    margin-top: 50px;
+    margin-left: -30px;
+    background:none;
+    
+    
+}
+.button-button {
+    display: flex;
+    
+}
+.form-input{
+    background: #21293C;
+}
+.images{
+    padding-top: 10px;
+    background: #21293C;
+     
+}
+footer{
+    background: #0C1524;
+    font-size: 14px;
+ 
+    
+}
+footer *{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background: #0C1524;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.about{
+    padding-left:74px;
+    display: flex;
+    
+}
+.coloum{
+    width: 20%;
+     
+    padding-left: 40px;
+    
+    flex-direction: column;
+}
+.coloum-two{
+    width: 20%;
+     padding-left: 130px;
+   
+    
+    flex-direction: column; 
+}
+.coloum-three{
+    width: 20%;
+    padding-left: 100px;
+     
+    /* margin-left: 200px;  */
+    
+    flex-direction: column; 
+}
+
+ul{
+    list-style: none;
+   
+    margin: 0;
+}
+.ul img{
+    width: 10px; 
+}
+ul li, a{
+    text-decoration: none;
+}
+.rows{
+    background: red;
+}
+
+.subscribe{
+    bottom: 50px;
+    position: relative;
+    z-index: 100;
+    background: none;
+    width: 500px;
+    margin: auto;
+    border: 2px solid #21293C;
+    background-color: #21293C;
+    border-radius: 10px solid #21293C;
+ 
+   padding-top: 30px;
+   margin-top: 70px;
+   width: 500px;
+  
+}
+
+.subscribe h1{
+    text-align: center;
+    background: #21293C;
+}
+.subscribe p{
+    text-align: center;
+    font-size: 14px;
+    background: #21293C;
+}
+.form input {
+    background-color: white;
+    border-radius: 16px;
+    border:5px solid white;
+    cursor: pointer;
+    width: 300px;
+    height:40px;
+    background: ;
+    
+    
+}
+.form{
+    display: flex;
+    background: #21293C;
+    padding-left: 40px;
+}
+.form a{
+    background: #21293C;
+    background-color:#8CDAE4;
+    border-radius: 16px;
+    width: 300px;
+    border:5px solid #8CDAE4;
+    height:30px;
+    font-size: 13px;
+    
+}
+
+
+/* web view */
+
+@media all and (max-width: 1440px){
+    .files{
+        justify-content: center;
+    }
+
+}
+
+/* mobile view */
+
+@media all and (max-width: 375px){
+    
+       
+        
+    .nav-bar{
+        list-style-type: none;
+        width:100%;
+        text-align: center;
+        text-align: center;
+        display: flex;
+    }
+    .logo {
+        width:100%;
+    }
+    
+    .logo img {
+        width: 100px;
+        margin-right: 70px;
+    }
+    .about{
+        display:grid;
+        padding-left: 44px;
+    }
+    .logo {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+        .nav-bar li{
+            display:inline-block;
+            /* border-top: 3px solid white; */
+            padding-top: 10px;
+        }
+        .active{
+            /* display: block; */
+        }
+        .display{
+            display: flex;
+            justify-content: center;
+        }
+        .const img{
+            width: 300px;
+        }
+        .cont{
+            display: grid;
+        }
+        .immg img{
+            padding-top: 30px;
+        }
+        .ment{
+            padding-bottom: 50px;
+        }
+        .files{
+            display: grid;
+            padding-top: 0px;
+        }
+        .secure img {
+            width: 20em;
+        }
+        .folders{
+            padding-top: 10px
+        }
+        .folders p {
+            font-size: 14px;
+            padding-top: 15px;
+            text-align: center;
+            padding-right: 30px;
+        }
+        .number{
+            display: flex;
+        }
+        .email{
+            display:flex;
+        }
+        .number p{
+            padding-left: 10px;
+        }
+        .email p{
+            padding-left: 10px  ;
+        }
+        .location{
+            display: flex;
+        }
+        .location p{
+            padding-left: 10px;
+        }
+        
+.folders h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-right: 40px;
+}
+.testi {
+    display: grid;
+}
+
+
+.testimon112 img {
+    padding-top: 35px;
+    padding-left: 70px;
+}
+
+.testimony {
+    border: 2px solid #21293C;
+    background-color: #21293C;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 6px 0;
+    margin-left: 60px;
+}
+.subscribe{
+    width:350px;
+}
+.form input{
+width:300px;
+padding-right:20px;
+}
+.form{
+    display:grid;   
+}
+.form a {
+    padding-left: 192px;
+}
+.button-button {
+    padding-top: 20px;
+}
+
+    }
